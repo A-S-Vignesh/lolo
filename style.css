@@ -1,0 +1,83 @@
+body{
+    background-color: beige;
+}
+.background-clr{
+    background-color: #e6e6e6;
+}
+
+.navbar{
+    border-bottom: 1px solid grey;
+    background-color: #ffffff;
+}
+.side_img{
+    margin-bottom: 5px;
+}
+.img-border{
+    border: 2px solid black;
+
+}
+.title{
+    font-family: serif;
+}
+.home-but{
+    text-decoration: none;
+}
+/*Next_page*/
+.img-size{
+    width: auto;
+    height: auto;
+}
+.caption a{
+    text-decoration: none;
+    color: black;
+}
+.caption a:hover{
+    color: gray;
+}
+
+.img-thumbnail{
+    transform: translate(0.5s);
+}
+.img-thumbnail:hover{
+    transform: scale(1.05);
+}
+
+/*Footer*/
+footer{
+    background-color: #404040;
+    color: white;
+    padding: 60px 40px;
+}
+.footer-nav-list{
+    border-right: 1px solid grey;
+}
+.footer-nav{
+    list-style: none;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-list{
+    list-style: none;
+}
+.footer-list li a,.footer-social li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-list li a:hover,.footer-social li a:hover,.footer-nav li a:hover{
+    color: lightgray;
+}
+.footer-social li{
+    list-style: none;
+}
+.footer-det{
+    border-right: 1px solid grey;
+}
+/* Footer end*/
+
+.card-title:hover{
+    color: #404040;
+}
